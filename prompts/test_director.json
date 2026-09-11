@@ -1,0 +1,34 @@
+{
+  "description": "Pipeline smoke test: 2-shot trailer with generated reference, VO and score.",
+  "character": "a small red fox with a white-tipped tail and a torn left ear",
+  "referencePrompt": "cinematic photorealistic portrait of a small red fox with a white-tipped tail and a torn left ear, sitting alert on a mossy log in a misty forest, soft golden side light, 85mm lens, shallow depth of field, film grain",
+  "narrationScript": "In the last forest, one small fox carries the seed of a new world.",
+  "voice": "Natural documentary voiceover. A warm, deep male narrator speaks calmly and intimately, with natural pauses. Warm close-mic studio recording, no music, no sound effects, only his voice.",
+  "narrationPrompt": "Natural documentary voiceover. A warm, deep male narrator speaks calmly and intimately, with natural pauses. Warm close-mic studio recording, no music, no sound effects, only his voice. The narrator says, slowly and clearly: \"In the last forest, one small fox carries the seed of a new world.\"",
+  "musicPrompt": "Slow cinematic score, soft strings and a low brass swell, distant taiko pulse, builds gently to a hopeful major chord, no vocals.",
+  "musicVolume": 0.35,
+  "narrationDuration": 8,
+  "narrationFps": 24,
+  "narrationSize": [64, 64],
+  "ratio": "9:16 (Portrait Widescreen)",
+  "megapixels": 0.5,
+  "keyframeWidth": 768,
+  "keyframeHeight": 1280,
+  "clipAudioVolume": 0.2,
+  "sequence": [
+    {
+      "title": "a_forest_dawn",
+      "duration": 4,
+      "useRef": false,
+      "image": "cinematic photorealistic 9:16 vertical frame, vast misty forest at dawn, towering mossy trunks, golden light rays through fog, epic documentary still, film grain",
+      "motion": "Slow aerial push-in through drifting dawn mist between the trunks, light rays shift as clouds move. Cinematic documentary, 4 seconds, no cuts."
+    },
+    {
+      "title": "b_the_fox",
+      "duration": 4,
+      "useRef": true,
+      "image": "cinematic photorealistic 9:16 vertical frame, a small red fox with a white-tipped tail and a torn left ear standing on a cliff edge at sunrise holding a glowing seed in its mouth, vast valley of golden mist below, lens flare, film grain",
+      "motion": "The fox lifts its head, the seed glows softly, the sun rises behind the valley and the mist burns gold, slow majestic push-in. Cinematic finale, 4 seconds, no cuts."
+    }
+  ]
+}
