@@ -4,3 +4,8 @@ workflows/merged_pipeline.json
 node_modules/
 *.log
 data/
+
+# personal prompts — never commit
+prompts/a_epic_monsters_on_earth.json
+prompts/a_funny_cat_story.json
+prompts/a_tutorial_to_save_world.json

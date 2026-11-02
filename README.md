@@ -27,6 +27,10 @@ Re-stitch a final cut without regenerating: `node scripts/director.mjs --stitch`
 
 Sequence Studio — sequences, movie director, img2img, with live render status.
 
+<img src="content/studio-page.png" width="480" alt="Sequence Studio — Sequence tab: craft a sequence, render with LTX 2.5 / Wan 2.1">
+
+<img src="content/director-page.png" width="480" alt="Director tab: LLM writes the trailer script (VO, voice direction, shot list), then renders">
+
 ```bash
 cp .env.example .env      # optional: COMFY_BASE, LOGIN_USER / LOGIN_PASS, LLM_BASE
 cd frontend
